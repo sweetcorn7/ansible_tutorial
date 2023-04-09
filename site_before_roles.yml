@@ -24,7 +24,7 @@
     tags: always
     authorized_key:
       user: simone
-      key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILjk69yuTL9x4wDyPmCrogvDALL7NMnrxGVi056pOpcr ansible"
+      key: "ssh-ed25519 A9e5c9e2a85ff920ba4b7451cc85066838337fc88b5ff314886b225f2d4b921be ansible"
 
 
 - hosts: workstations
