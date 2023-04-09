@@ -1,0 +1,11 @@
+- name: install mariadb package (CentOS)
+  dnf:
+    name: mariadb
+    state: latest
+  when: ansible_distribution == "CentOS"
+  
+- name: install maridb package (Ubuntu)
+  apt:
+    name: mariadb-server
+    state: latest
+  when: ansible_distribution == "Ubuntu"
